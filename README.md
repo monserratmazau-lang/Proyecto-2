@@ -11,8 +11,7 @@ Adjunto el código con los respectivos comentarios que lo describen:
 #Reto 1
 #El siguiente programa mide la longitud de la frase ingresada
 
-#A continuación,se encapsula el código dentro de un bucle while para permitir 
-# múltiples intentos hasta que se ingrese una frase con la longitud correcta
+#A continuación,se encapsula el código dentro de un bucle while para permitir múltiples intentos hasta que se ingrese una frase con la longitud correcta
 while True:    
  frase = input("Ingrese una frase: ") #Se declara la variable frase
  longitud_frase = len(frase)
@@ -23,7 +22,7 @@ while True:
  elif longitud_frase > 8:
     print(f"Sobran letras.Tiene {longitud_frase} letras.")
 #Al tener una palabra con longitud entre 4 y 8 letras, el else se encargará 
-# de mostrar el mensaje de éxito y finalizar el programa
+#de mostrar el mensaje de éxito y finalizar el programa
  else:
     print(f"La longitud de la frase es correcta, tiene {longitud_frase} letras.")
     print("La palabra correcta fue ingresada, fin del programa.")
